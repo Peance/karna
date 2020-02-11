@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="post">
-  <div class="post-info">
-    <span>Written by</span>
+    <div class="post-info">
+    <span>作者：</span>
     {% if page.author %}
         {{ page.author }}
     {% else %}
@@ -13,15 +13,40 @@ layout: default
 
     {% if page.date %}
       <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
+      <time datetime="{{ page.date }}">
+        {{ page.date | date: "%Y" }}年
+        {% assign m = page.date | date: "%-m" %} 
+          {% case m %}
+            {% when '1' %}一月
+            {% when '2' %}二月
+            {% when '3' %}三月
+            {% when '4' %}四月
+            {% when '5' %}五月
+            {% when '6' %}六月
+            {% when '7' %}七月
+            {% when '8' %}八月
+            {% when '9' %}九月
+            {% when '10' %}十月
+            {% when '11' %}十一月
+            {% when '12' %}十二月
+          {% endcase %}
+        {{ page.date | date: "%-d" }}日
+      </time>
+    {% endif %} 
   </div>
 
+
+  
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
+  
 
+<br>
   {{ content }}
 </div>
+
+
+
 
 {% if page.comments %}
   {% include disqus_comments.html %}
@@ -35,5 +60,4 @@ layout: default
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
 
-  <a href="#" class="top">Top</a>
 </div>

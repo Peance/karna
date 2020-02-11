@@ -6,12 +6,31 @@ layout: default
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <time datetime="{{ post.date }}" class="catalogue-time">
+          {{ post.date | date: "%Y" }}年
+          {% assign m = post.date | date: "%-m" %} 
+            {% case m %}
+              {% when '1' %}一月
+              {% when '2' %}二月
+              {% when '3' %}三月
+              {% when '4' %}四月
+              {% when '5' %}五月
+              {% when '6' %}六月
+              {% when '7' %}七月
+              {% when '8' %}八月
+              {% when '9' %}九月
+              {% when '10' %}十月
+              {% when '11' %}十一月
+              {% when '12' %}十二月
+            {% endcase %}
+          {{ post.date | date: "%-d" }}日
+        </time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
 
         <p>
-          {{ post.content | strip_html | truncatewords: 30 }}
+          {{ post.content  | | split:'<!--break-->' | first }}
+
         </p>
 
       </div>
