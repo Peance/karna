@@ -39,3 +39,7 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 #disqus:         jekyll-tale
+
+# Time
+timezone: Asia/Shanghai
+future: false
