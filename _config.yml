@@ -41,5 +41,4 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 #disqus:         jekyll-tale
 
 # Time
-timezone: Asia/Shanghai
 future: false

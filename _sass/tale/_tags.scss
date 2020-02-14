@@ -1,0 +1,21 @@
+  .tags > .tag {
+    a {
+      color: $base-color;
+    }
+    time {
+      color: $base-lighten-color;
+      font-size: $small-font-size;
+      font-weight: 300;
+      margin-left: 3px;
+    }
+    span {
+      display: inline-block;
+      margin: 1px;
+      color: $tag-index-label-color;
+      background-color: $tag-index-label-background-color;
+      border-radius: 3px;
+      padding: .5px 5px;
+
+    }
+  }
+  
