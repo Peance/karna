@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "起死回生"
-categories: 小说
+categories: 同人
 tags: 
     - 惊悚
-    - fanfic
     - TSV
 ---
 

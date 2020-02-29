@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "神明阙如"
-categories: 小说
+categories: 同人
 tags: 
-    - fanfic
+    
     - 日剧
     - 灵异
 ---
