@@ -5,13 +5,16 @@ categories: 同人
 tags: 
     - TSV
 ---
-与切悲的联文，请阅读她的[Sleepwalk](https://wewantyoutopractice40hrsaday.lofter.com/post/1f158b7b_1c83b35fa)。
 
 >Don't say it's too late to say "I need you"
 >
 >Don't say it's too late to say "I miss you"
 
 <!--break-->
+
+**与切悲的联文，请阅读她的[Sleepwalk](https://wewantyoutopractice40hrsaday.lofter.com/post/1f158b7b_1c83b35fa)。**
+
+---
 
 ## 一
 事实是，尽管很多人不这么觉得，先提出“也许我们该休息一下”的人是Eddy。他并不是直接说出来，他只是迟到越来越多，经常性地疲倦，花很长时间抱怨通勤。然后，有一次，他很认真地问Brett订婚戒指选什么好。
