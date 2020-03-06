@@ -1,6 +1,6 @@
 # Site settings
-title:          谈乐
-#description:    "Minimal Jekyll theme for storytellers"
+title:          废纸堆
+description:    "随笔、安利与记录""
 baseurl:        "/dairy"
 url:            "https://peance.github.io"
 
@@ -9,7 +9,7 @@ url:            "https://peance.github.io"
 
 # Author
 author:
-  name:         平生未见我多情
+  name:         多多多情
   #url:          https://chester.how
   #email:        chesterhow@gmail.com
 
