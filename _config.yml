@@ -1,7 +1,7 @@
 # Site settings
 title:          谈乐
 #description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
+baseurl:        "/dairy"
 url:            "https://peance.github.io"
 
 # Google Analytics
