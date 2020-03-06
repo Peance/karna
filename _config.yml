@@ -1,7 +1,7 @@
 # Site settings
 title:          废纸堆
 description:    "随笔、安利与记录"
-baseurl:        "/dairy"
+baseurl:        "/pile"
 url:            "https://peance.github.io"
 
 # Google Analytics
